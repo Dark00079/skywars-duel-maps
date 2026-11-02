@@ -147,6 +147,8 @@ for w, (lid, ld, pd, fid, fd, ltop, lside, leaf, plank) in WOODS.items():
     # persistent=true / legacy no-decay bit (4): pasted leaves never decay
     reg(w + "_leaves", mc(w + "_leaves[distance=7,persistent=true]"), fid, fd | 4, leaf, kind="leaves")
     reg(w + "_planks", mc(w + "_planks"), 5, pd, plank)
+    # bark on all six sides (legacy log data 12-15) for thick trunks and branches
+    reg(w + "_wood", mc(w + "_wood[axis=y]"), lid, ld | 12, lside, lside, family="log")
 reg("oak_slab", mc("oak_slab[type=bottom,waterlogged=false]"), 126, 0, (162, 130, 78), kind="slab")
 reg("spruce_slab", mc("spruce_slab[type=bottom,waterlogged=false]"), 126, 1, (114, 84, 48), kind="slab")
 reg("oak_fence", mc("oak_fence"), 85, 0, (162, 130, 78), kind="fence", family="woodfence")

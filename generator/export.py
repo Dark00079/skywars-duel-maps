@@ -32,26 +32,40 @@ def _order(a):
 
 def write_sponge(path, a, name, chests, offset):
     W, H, L = a.shape
-    states = np.empty(a.shape, dtype=object)
     palette = {"minecraft:air": 0}
-    idx = np.zeros(a.shape, dtype=np.int32)
-    nz = np.argwhere(a != AIR)
-    for (x, y, z) in nz:
-        s = modern_state(a, x, y, z)
-        if s not in palette:
-            palette[s] = len(palette)
-        idx[x, y, z] = palette[s]
+    lut = np.zeros(len(REG), dtype=np.int32)
+    used = [int(i) for i in np.unique(a) if i != AIR]
+    fences = []
+    for i in used:
+        b = REG[i]
+        if b.kind == "fence":
+            fences.append(i)
+            continue
+        if b.modern not in palette:
+            palette[b.modern] = len(palette)
+        lut[i] = palette[b.modern]
+    idx = lut[a]
+    if fences:  # connection states depend on neighbours
+        for (x, y, z) in np.argwhere(np.isin(a, fences)):
+            st = modern_state(a, x, y, z)
+            if st not in palette:
+                palette[st] = len(palette)
+            idx[x, y, z] = palette[st]
     flat = _order(idx)
-    data = bytearray()
-    for v in flat.tolist():
-        while v & ~0x7F:
-            data.append((v & 0x7F) | 0x80)
-            v >>= 7
-        data.append(v)
+    if len(palette) <= 128:
+        data = flat.astype(np.uint8).tobytes()  # every varint is a single byte
+    else:
+        out = bytearray()
+        for v in flat.tolist():
+            while v & ~0x7F:
+                out.append((v & 0x7F) | 0x80)
+                v >>= 7
+            out.append(v)
+        data = bytes(out)
     block_entities = []
     for (x, y, z) in chests:
         block_entities.append({
-            "Pos": nbt.IntArray([x, y, z]),
+            "Pos": nbt.IntArray([int(x), int(y), int(z)]),
             "Id": nbt.String("minecraft:chest"),
             "Items": nbt.List(nbt.COMPOUND, []),
         })
@@ -87,7 +101,7 @@ def write_mcedit(path, a, chests, offset):
     for (x, y, z) in chests:
         tiles.append({
             "id": nbt.String("Chest"),
-            "x": nbt.Int(x), "y": nbt.Int(y), "z": nbt.Int(z),
+            "x": nbt.Int(int(x)), "y": nbt.Int(int(y)), "z": nbt.Int(int(z)),
             "Items": nbt.List(nbt.COMPOUND, []),
         })
     root = {

@@ -3,12 +3,12 @@
     "id": 1,
     "name": "Meadow",
     "file": "01-meadow",
-    "description": "Grassy oak islands with a giant oak in the middle.",
+    "description": "Grassy oak islands with a giant oak tree in the middle.",
     "layout": "2 spawns, middle, 2 centre-line side islands",
     "size": {
-      "x": 81,
-      "y": 44,
-      "z": 61
+      "x": 345,
+      "y": 131,
+      "z": 261
     },
     "pos1_stone": [
       0,
@@ -16,101 +16,101 @@
       0
     ],
     "pos2_stone": [
-      80,
-      43,
-      60
+      344,
+      130,
+      260
     ],
     "spawns": [
       [
-        12,
-        21,
-        30
+        30,
+        86,
+        128
       ],
       [
-        68,
-        21,
-        30
+        314,
+        86,
+        132
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          28
+          25,
+          86,
+          131
         ],
         [
-          11,
-          21,
-          33
+          26,
+          86,
+          124
         ],
         [
-          14,
-          21,
-          28
+          34,
+          86,
+          124
         ]
       ],
       "spawn_p2": [
         [
-          66,
-          21,
-          32
+          310,
+          86,
+          136
         ],
         [
-          69,
-          21,
-          27
+          318,
+          86,
+          136
         ],
         [
-          70,
-          21,
-          32
+          319,
+          86,
+          129
         ]
       ],
       "middle": [
         [
-          36,
-          23,
-          26
+          163,
+          96,
+          121
         ],
         [
-          36,
-          23,
-          34
+          163,
+          96,
+          139
         ],
         [
-          44,
-          23,
-          26
+          181,
+          96,
+          121
         ],
         [
-          44,
-          23,
-          34
+          181,
+          96,
+          139
         ]
       ],
       "side_1": [
         [
-          38,
-          21,
-          9
+          167,
+          82,
+          23
         ],
         [
-          42,
-          20,
-          9
+          177,
+          82,
+          23
         ]
       ],
       "side_2": [
         [
-          38,
-          20,
-          51
+          167,
+          82,
+          237
         ],
         [
-          42,
-          21,
-          51
+          177,
+          82,
+          237
         ]
       ]
     },
@@ -122,23 +122,24 @@
       "side_2": 2
     },
     "total_chests": 14,
-    "blocks": 4258,
+    "blocks": 319183,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -172,
       0,
-      -30
+      -130
     ]
   },
   {
     "id": 2,
     "name": "Dunes",
     "file": "02-dunes",
-    "description": "Sandstone desert islands around a stepped pyramid.",
-    "layout": "2 spawns, middle, 2 rocks",
+    "description": "Sandstone desert islands around a big stepped pyramid.",
+    "layout": "2 spawns, pyramid middle, 2 rocks",
     "size": {
-      "x": 81,
-      "y": 42,
-      "z": 51
+      "x": 357,
+      "y": 109,
+      "z": 185
     },
     "pos1_stone": [
       0,
@@ -146,91 +147,91 @@
       0
     ],
     "pos2_stone": [
-      80,
-      41,
-      50
+      356,
+      108,
+      184
     ],
     "spawns": [
       [
-        12,
-        21,
-        25
+        36,
+        75,
+        90
       ],
       [
-        68,
-        21,
-        25
+        320,
+        75,
+        94
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          23
+          32,
+          75,
+          86
         ],
         [
-          10,
-          21,
-          27
+          32,
+          75,
+          94
         ],
         [
-          15,
-          21,
-          25
+          41,
+          75,
+          90
         ]
       ],
       "spawn_p2": [
         [
-          65,
-          21,
-          25
+          315,
+          75,
+          94
         ],
         [
-          70,
-          21,
-          23
+          324,
+          75,
+          90
         ],
         [
-          70,
-          21,
-          27
+          324,
+          75,
+          98
         ]
       ],
       "middle": [
         [
-          34,
-          23,
-          25
+          153,
+          85,
+          92
         ],
         [
-          40,
-          23,
-          19
+          178,
+          85,
+          67
         ],
         [
-          40,
-          23,
-          31
+          178,
+          85,
+          117
         ],
         [
-          46,
-          23,
-          25
+          203,
+          85,
+          92
         ]
       ],
       "rock_1": [
         [
-          27,
-          19,
-          11
+          111,
+          65,
+          20
         ]
       ],
       "rock_2": [
         [
-          53,
-          19,
-          39
+          245,
+          65,
+          164
         ]
       ]
     },
@@ -242,23 +243,24 @@
       "rock_2": 1
     },
     "total_chests": 12,
-    "blocks": 3739,
+    "blocks": 314097,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -178,
       0,
-      -25
+      -92
     ]
   },
   {
     "id": 3,
     "name": "Frostbite",
     "file": "03-frostbite",
-    "description": "Snowy spruce islands, ice veins and a packed-ice spike.",
+    "description": "Snowy spruce forests and a towering packed-ice spike.",
     "layout": "2 spawns, middle, 4 ice rocks",
     "size": {
-      "x": 81,
-      "y": 46,
-      "z": 55
+      "x": 343,
+      "y": 157,
+      "z": 199
     },
     "pos1_stone": [
       0,
@@ -266,105 +268,105 @@
       0
     ],
     "pos2_stone": [
-      80,
-      45,
-      54
+      342,
+      156,
+      198
     ],
     "spawns": [
       [
-        12,
-        21,
-        27
+        29,
+        73,
+        97
       ],
       [
-        68,
-        21,
-        27
+        313,
+        73,
+        101
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          9,
-          21,
-          29
+          24,
+          73,
+          100
         ],
         [
-          10,
-          21,
-          24
+          25,
+          73,
+          92
         ],
         [
-          14,
-          21,
-          25
+          33,
+          73,
+          93
         ]
       ],
       "spawn_p2": [
         [
-          66,
-          21,
-          29
+          309,
+          73,
+          105
         ],
         [
-          70,
-          21,
-          30
+          317,
+          73,
+          106
         ],
         [
-          71,
-          21,
-          25
+          318,
+          73,
+          98
         ]
       ],
       "middle": [
         [
-          36,
-          23,
-          23
+          160,
+          81,
+          110
         ],
         [
-          36,
-          23,
-          31
+          160,
+          84,
+          88
         ],
         [
-          44,
-          23,
-          23
+          182,
+          81,
+          88
         ],
         [
-          44,
-          23,
-          31
+          182,
+          84,
+          110
         ]
       ],
       "rock_1": [
         [
-          25,
-          19,
-          11
+          94,
+          63,
+          17
         ]
       ],
       "rock_2": [
         [
-          25,
-          19,
-          43
+          94,
+          63,
+          177
         ]
       ],
       "rock_3": [
         [
-          55,
-          19,
-          43
+          248,
+          63,
+          181
         ]
       ],
       "rock_4": [
         [
-          55,
-          19,
-          11
+          248,
+          63,
+          21
         ]
       ]
     },
@@ -378,23 +380,24 @@
       "rock_4": 1
     },
     "total_chests": 14,
-    "blocks": 3948,
+    "blocks": 293865,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -171,
       0,
-      -27
+      -99
     ]
   },
   {
     "id": 4,
     "name": "Inferno",
     "file": "04-inferno",
-    "description": "Netherrack and soul sand with a nether-brick tower and glowstone drips.",
-    "layout": "2 spawns, middle tower, 2 personal side islands",
+    "description": "Netherrack and soul sand around a tall nether-brick tower.",
+    "layout": "2 spawns, tower middle, 2 personal side islands",
     "size": {
-      "x": 81,
-      "y": 44,
-      "z": 55
+      "x": 347,
+      "y": 112,
+      "z": 201
     },
     "pos1_stone": [
       0,
@@ -402,111 +405,111 @@
       0
     ],
     "pos2_stone": [
-      80,
-      43,
-      54
+      346,
+      111,
+      200
     ],
     "spawns": [
       [
-        12,
-        21,
-        27
+        31,
+        65,
+        98
       ],
       [
-        68,
-        21,
-        27
+        315,
+        65,
+        102
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          25
+          27,
+          65,
+          94
         ],
         [
-          10,
-          21,
-          29
+          27,
+          65,
+          102
         ],
         [
-          14,
-          21,
-          30
+          35,
+          65,
+          103
         ]
       ],
       "spawn_p2": [
         [
-          66,
-          21,
-          24
+          311,
+          65,
+          97
         ],
         [
-          70,
-          21,
-          25
+          319,
+          65,
+          98
         ],
         [
-          70,
-          21,
-          29
+          319,
+          65,
+          106
         ]
       ],
       "middle": [
         [
-          36,
-          23,
-          23
+          161,
+          75,
+          88
         ],
         [
-          36,
-          24,
-          31
+          161,
+          75,
+          112
         ],
         [
-          39,
-          23,
-          26
+          168,
+          75,
+          95
         ],
         [
-          41,
-          23,
-          28
+          178,
+          75,
+          105
         ],
         [
-          44,
-          23,
-          31
+          185,
+          75,
+          88
         ],
         [
-          44,
-          24,
-          23
+          185,
+          75,
+          112
         ]
       ],
       "side_1": [
         [
-          25,
-          20,
-          12
+          96,
+          60,
+          23
         ],
         [
-          27,
-          20,
-          10
+          104,
+          60,
+          18
         ]
       ],
       "side_2": [
         [
-          53,
-          20,
-          44
+          242,
+          60,
+          182
         ],
         [
-          55,
-          20,
-          42
+          250,
+          60,
+          177
         ]
       ]
     },
@@ -518,23 +521,24 @@
       "side_2": 2
     },
     "total_chests": 16,
-    "blocks": 3700,
+    "blocks": 302093,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -173,
       0,
-      -27
+      -100
     ]
   },
   {
     "id": 5,
     "name": "The End",
     "file": "05-the-end",
-    "description": "End stone islands with obsidian pillars and purple crystal caps.",
-    "layout": "2 spawns, middle, 2 centre-line side islands",
+    "description": "End stone islands with obsidian pillars capped by purple glass cages.",
+    "layout": "2 spawns, pillar middle, 2 centre-line side islands",
     "size": {
-      "x": 81,
-      "y": 44,
-      "z": 55
+      "x": 339,
+      "y": 122,
+      "z": 243
     },
     "pos1_stone": [
       0,
@@ -542,111 +546,111 @@
       0
     ],
     "pos2_stone": [
-      80,
-      43,
-      54
+      338,
+      121,
+      242
     ],
     "spawns": [
       [
-        12,
-        21,
-        27
+        27,
+        61,
+        119
       ],
       [
-        68,
-        21,
-        27
+        311,
+        61,
+        123
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          25
+          23,
+          61,
+          115
         ],
         [
-          10,
-          21,
-          29
+          23,
+          61,
+          123
         ],
         [
-          15,
-          21,
-          26
+          32,
+          61,
+          117
         ]
       ],
       "spawn_p2": [
         [
-          65,
-          21,
-          28
+          306,
+          61,
+          125
         ],
         [
-          70,
-          21,
-          25
+          315,
+          61,
+          119
         ],
         [
-          70,
-          21,
-          29
+          315,
+          61,
+          127
         ]
       ],
       "middle": [
         [
-          34,
-          23,
-          24
+          158,
+          73,
+          127
         ],
         [
-          34,
-          23,
-          30
+          158,
+          74,
+          114
         ],
         [
-          40,
-          23,
-          21
+          169,
+          74,
+          108
         ],
         [
-          40,
-          23,
-          33
+          169,
+          74,
+          134
         ],
         [
-          46,
-          23,
-          24
+          180,
+          73,
+          115
         ],
         [
-          46,
-          23,
-          30
+          180,
+          74,
+          128
         ]
       ],
       "side_1": [
         [
-          38,
-          21,
-          8
+          164,
+          57,
+          24
         ],
         [
-          42,
-          21,
-          8
+          174,
+          57,
+          24
         ]
       ],
       "side_2": [
         [
-          38,
-          21,
-          46
+          164,
+          57,
+          218
         ],
         [
-          42,
-          21,
-          46
+          174,
+          57,
+          218
         ]
       ]
     },
@@ -658,23 +662,24 @@
       "side_2": 2
     },
     "total_chests": 16,
-    "blocks": 3555,
+    "blocks": 295770,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -169,
       0,
-      -27
+      -121
     ]
   },
   {
     "id": 6,
     "name": "Atlantis",
     "file": "06-atlantis",
-    "description": "Prismarine islands with sea lanterns and an open-sided temple.",
-    "layout": "2 spawns, middle temple, 2 centre-line side islands",
+    "description": "Prismarine islands with sea lanterns and a huge pillared temple.",
+    "layout": "2 spawns, temple middle, 2 centre-line side islands",
     "size": {
-      "x": 81,
-      "y": 42,
-      "z": 61
+      "x": 341,
+      "y": 98,
+      "z": 271
     },
     "pos1_stone": [
       0,
@@ -682,111 +687,111 @@
       0
     ],
     "pos2_stone": [
-      80,
-      41,
-      60
+      340,
+      97,
+      270
     ],
     "spawns": [
       [
-        12,
-        21,
-        30
+        28,
+        65,
+        133
       ],
       [
-        68,
-        21,
-        30
+        312,
+        65,
+        137
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          27
+          24,
+          65,
+          128
         ],
         [
-          10,
-          21,
-          33
+          24,
+          65,
+          138
         ],
         [
-          15,
-          21,
-          29
+          33,
+          65,
+          131
         ]
       ],
       "spawn_p2": [
         [
+          307,
           65,
-          21,
-          31
+          139
         ],
         [
-          70,
-          21,
-          27
+          316,
+          65,
+          132
         ],
         [
-          70,
-          21,
-          33
+          316,
+          65,
+          142
         ]
       ],
       "middle": [
         [
-          38,
-          23,
-          30
+          163,
+          75,
+          135
         ],
         [
-          40,
-          23,
-          23
+          170,
+          75,
+          105
         ],
         [
-          40,
-          23,
-          28
+          170,
+          75,
+          128
         ],
         [
-          40,
-          23,
-          32
+          170,
+          75,
+          142
         ],
         [
-          40,
-          23,
-          37
+          170,
+          75,
+          165
         ],
         [
-          42,
-          23,
-          30
+          177,
+          75,
+          135
         ]
       ],
       "side_1": [
         [
-          38,
-          20,
-          10
+          165,
+          60,
+          29
         ],
         [
-          42,
-          21,
-          10
+          175,
+          61,
+          29
         ]
       ],
       "side_2": [
         [
-          38,
-          21,
-          50
+          165,
+          61,
+          241
         ],
         [
-          42,
-          20,
-          50
+          175,
+          60,
+          241
         ]
       ]
     },
@@ -798,23 +803,24 @@
       "side_2": 2
     },
     "total_chests": 16,
-    "blocks": 3951,
+    "blocks": 327708,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -170,
       0,
-      -30
+      -135
     ]
   },
   {
     "id": 7,
     "name": "Fungal",
     "file": "07-fungal",
-    "description": "Mycelium islands with giant red and brown mushrooms.",
-    "layout": "2 spawns, middle, 2 rocks",
+    "description": "Mycelium islands under giant red and brown mushrooms.",
+    "layout": "2 spawns, giant mushroom middle, 2 rocks",
     "size": {
-      "x": 81,
-      "y": 44,
-      "z": 51
+      "x": 341,
+      "y": 110,
+      "z": 189
     },
     "pos1_stone": [
       0,
@@ -822,91 +828,91 @@
       0
     ],
     "pos2_stone": [
-      80,
-      43,
-      50
+      340,
+      109,
+      188
     ],
     "spawns": [
       [
-        12,
-        21,
-        25
+        28,
+        62,
+        92
       ],
       [
-        68,
-        21,
-        25
+        312,
+        62,
+        96
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          23
+          24,
+          62,
+          88
         ],
         [
-          13,
-          21,
-          28
+          30,
+          62,
+          97
         ],
         [
-          15,
-          21,
-          24
+          33,
+          62,
+          90
         ]
       ],
       "spawn_p2": [
         [
-          65,
-          21,
-          26
+          307,
+          62,
+          98
         ],
         [
-          67,
-          21,
-          22
+          310,
+          62,
+          91
         ],
         [
-          70,
-          21,
-          27
+          316,
+          62,
+          100
         ]
       ],
       "middle": [
         [
-          36,
-          23,
-          29
+          162,
+          72,
+          86
         ],
         [
-          36,
-          24,
-          21
+          162,
+          72,
+          102
         ],
         [
-          44,
-          23,
-          21
+          178,
+          72,
+          86
         ],
         [
-          44,
-          24,
-          29
+          178,
+          72,
+          102
         ]
       ],
       "rock_1": [
         [
-          27,
-          19,
-          10
+          103,
+          52,
+          17
         ]
       ],
       "rock_2": [
         [
-          53,
-          19,
-          40
+          237,
+          52,
+          171
         ]
       ]
     },
@@ -918,23 +924,24 @@
       "rock_2": 1
     },
     "total_chests": 12,
-    "blocks": 3748,
+    "blocks": 301598,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -170,
       0,
-      -25
+      -94
     ]
   },
   {
     "id": 8,
     "name": "Jungle",
     "file": "08-jungle",
-    "description": "Jungle trees, ferns and a mossy stone temple in the middle.",
-    "layout": "2 spawns, middle temple, 2 personal side islands",
+    "description": "Dense jungle with giant trees around a mossy stone temple.",
+    "layout": "2 spawns, temple middle, 2 personal side islands",
     "size": {
-      "x": 81,
-      "y": 46,
-      "z": 61
+      "x": 353,
+      "y": 99,
+      "z": 217
     },
     "pos1_stone": [
       0,
@@ -942,111 +949,111 @@
       0
     ],
     "pos2_stone": [
-      80,
-      45,
-      60
+      352,
+      98,
+      216
     ],
     "spawns": [
       [
-        12,
-        21,
-        30
+        34,
+        62,
+        106
       ],
       [
-        68,
-        21,
-        30
+        318,
+        62,
+        110
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          33
+          29,
+          62,
+          110
         ],
         [
-          11,
-          21,
-          27
+          31,
+          62,
+          101
         ],
         [
-          15,
-          21,
-          32
+          39,
+          62,
+          109
         ]
       ],
       "spawn_p2": [
         [
-          65,
-          21,
-          28
+          313,
+          62,
+          107
         ],
         [
-          69,
-          21,
-          33
+          321,
+          62,
+          115
         ],
         [
-          70,
-          21,
-          27
+          323,
+          62,
+          106
         ]
       ],
       "middle": [
         [
-          35,
-          23,
-          25
+          159,
+          72,
+          125
         ],
         [
-          35,
-          23,
-          35
+          159,
+          74,
+          91
         ],
         [
-          38,
-          23,
-          30
+          166,
+          72,
+          108
         ],
         [
-          42,
-          23,
-          30
+          186,
+          72,
+          108
         ],
         [
-          45,
-          23,
-          25
+          193,
+          72,
+          91
         ],
         [
-          45,
-          23,
-          35
+          193,
+          74,
+          125
         ]
       ],
       "side_1": [
         [
-          24,
-          20,
-          14
+          99,
+          57,
+          26
         ],
         [
-          27,
-          20,
-          16
+          107,
+          57,
+          30
         ]
       ],
       "side_2": [
         [
-          53,
-          20,
-          44
+          245,
+          57,
+          186
         ],
         [
-          56,
-          20,
-          46
+          253,
+          57,
+          190
         ]
       ]
     },
@@ -1058,23 +1065,24 @@
       "side_2": 2
     },
     "total_chests": 16,
-    "blocks": 4436,
+    "blocks": 351451,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -176,
       0,
-      -30
+      -108
     ]
   },
   {
     "id": 9,
     "name": "Crystal",
     "file": "09-crystal",
-    "description": "White quartz islands with glass crystal clusters hanging underneath.",
-    "layout": "2 spawns, 2 twin islands, small centre crystal island",
+    "description": "White quartz islands with glass crystal spires and crystal drips.",
+    "layout": "2 spawns, 2 twin islands, crystal spire centre island",
     "size": {
-      "x": 81,
-      "y": 44,
-      "z": 55
+      "x": 353,
+      "y": 111,
+      "z": 179
     },
     "pos1_stone": [
       0,
@@ -1082,91 +1090,91 @@
       0
     ],
     "pos2_stone": [
-      80,
-      43,
-      54
+      352,
+      110,
+      178
     ],
     "spawns": [
       [
-        11,
-        21,
-        27
+        29,
+        61,
+        87
       ],
       [
-        69,
-        21,
-        27
+        323,
+        61,
+        91
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          9,
-          21,
-          25
+          25,
+          61,
+          83
         ],
         [
-          9,
-          21,
-          29
+          25,
+          61,
+          91
         ],
         [
-          14,
-          21,
-          29
+          34,
+          61,
+          90
         ]
       ],
       "spawn_p2": [
         [
-          66,
-          21,
-          25
+          318,
+          61,
+          88
         ],
         [
-          71,
-          21,
-          25
+          327,
+          61,
+          87
         ],
         [
-          71,
-          21,
-          29
+          327,
+          61,
+          95
         ]
       ],
       "middle": [
         [
-          40,
-          23,
-          25
+          176,
+          71,
+          79
         ],
         [
-          40,
-          23,
-          29
+          176,
+          71,
+          99
         ]
       ],
       "twin_1": [
         [
-          28,
-          22,
-          18
+          118,
+          65,
+          37
         ],
         [
-          32,
-          23,
-          14
+          130,
+          66,
+          27
         ]
       ],
       "twin_2": [
         [
-          48,
-          23,
-          40
+          222,
+          66,
+          151
         ],
         [
-          52,
-          22,
-          36
+          234,
+          65,
+          141
         ]
       ]
     },
@@ -1178,23 +1186,24 @@
       "twin_2": 2
     },
     "total_chests": 12,
-    "blocks": 2652,
+    "blocks": 212437,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -176,
       0,
-      -27
+      -89
     ]
   },
   {
     "id": 10,
     "name": "Volcano",
     "file": "10-volcano",
-    "description": "Rocky islands around a smoking volcano with a lava crater.",
+    "description": "Rocky islands around a huge volcano with a sealed lava lake.",
     "layout": "2 spawns, volcano middle, 2 personal side islands",
     "size": {
-      "x": 85,
-      "y": 46,
-      "z": 55
+      "x": 361,
+      "y": 120,
+      "z": 221
     },
     "pos1_stone": [
       0,
@@ -1202,101 +1211,101 @@
       0
     ],
     "pos2_stone": [
-      84,
-      45,
-      54
+      360,
+      119,
+      220
     ],
     "spawns": [
       [
-        12,
-        21,
-        27
+        28,
+        71,
+        108
       ],
       [
-        72,
-        21,
-        27
+        332,
+        71,
+        112
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          24
+          24,
+          71,
+          103
         ],
         [
-          10,
-          21,
-          30
+          24,
+          71,
+          113
         ],
         [
-          15,
-          21,
-          25
+          33,
+          71,
+          105
         ]
       ],
       "spawn_p2": [
         [
-          69,
-          21,
-          29
+          327,
+          71,
+          115
         ],
         [
-          74,
-          21,
-          24
+          336,
+          71,
+          107
         ],
         [
-          74,
-          21,
-          30
+          336,
+          71,
+          117
         ]
       ],
       "middle": [
         [
-          36,
-          23,
-          21
+          150,
+          80,
+          140
         ],
         [
-          36,
-          23,
-          33
+          150,
+          82,
+          80
         ],
         [
-          48,
-          23,
-          21
+          210,
+          80,
+          80
         ],
         [
-          48,
-          23,
-          33
+          210,
+          82,
+          140
         ]
       ],
       "side_1": [
         [
-          25,
-          21,
-          13
+          93,
+          67,
+          32
         ],
         [
-          28,
-          20,
-          10
+          103,
+          66,
+          26
         ]
       ],
       "side_2": [
         [
-          56,
-          20,
-          44
+          257,
+          66,
+          194
         ],
         [
-          59,
-          21,
-          41
+          267,
+          67,
+          188
         ]
       ]
     },
@@ -1308,23 +1317,24 @@
       "side_2": 2
     },
     "total_chests": 14,
-    "blocks": 4800,
+    "blocks": 437532,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -42,
+      -180,
       0,
-      -27
+      -110
     ]
   },
   {
     "id": 11,
     "name": "Candy",
     "file": "11-candy",
-    "description": "Frosted terracotta islands with lollipops, candy canes and a giant cupcake.",
+    "description": "Frosted islands with lollipops, candy canes and a giant cupcake.",
     "layout": "2 spawns, cupcake middle, 2 centre-line side islands",
     "size": {
-      "x": 81,
-      "y": 44,
-      "z": 61
+      "x": 343,
+      "y": 123,
+      "z": 263
     },
     "pos1_stone": [
       0,
@@ -1332,101 +1342,101 @@
       0
     ],
     "pos2_stone": [
-      80,
-      43,
-      60
+      342,
+      122,
+      262
     ],
     "spawns": [
       [
-        12,
-        21,
-        30
+        29,
+        72,
+        129
       ],
       [
-        68,
-        21,
-        30
+        313,
+        72,
+        133
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          9,
-          21,
-          32
+          24,
+          72,
+          132
         ],
         [
-          10,
-          21,
-          27
+          25,
+          72,
+          124
         ],
         [
-          15,
-          21,
-          28
+          34,
+          72,
+          126
         ]
       ],
       "spawn_p2": [
         [
-          65,
-          21,
-          32
+          308,
+          72,
+          136
         ],
         [
-          70,
-          21,
-          33
+          317,
+          72,
+          138
         ],
         [
-          71,
-          21,
-          28
+          318,
+          72,
+          130
         ]
       ],
       "middle": [
         [
-          35,
-          23,
-          25
+          154,
+          82,
+          114
         ],
         [
-          35,
-          23,
-          35
+          154,
+          83,
+          148
         ],
         [
-          45,
-          23,
-          25
+          188,
+          82,
+          148
         ],
         [
-          45,
-          23,
-          35
+          188,
+          83,
+          114
         ]
       ],
       "side_1": [
         [
-          38,
-          20,
-          10
+          166,
+          67,
+          25
         ],
         [
-          42,
-          20,
-          10
+          176,
+          67,
+          25
         ]
       ],
       "side_2": [
         [
-          38,
-          20,
-          50
+          166,
+          67,
+          237
         ],
         [
-          42,
-          20,
-          50
+          176,
+          67,
+          237
         ]
       ]
     },
@@ -1438,23 +1448,24 @@
       "side_2": 2
     },
     "total_chests": 14,
-    "blocks": 4150,
+    "blocks": 351283,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -171,
       0,
-      -30
+      -131
     ]
   },
   {
     "id": 12,
     "name": "Castle",
     "file": "12-castle",
-    "description": "Floating stone-brick ruins with a crenellated keep in the middle.",
-    "layout": "2 spawns, keep middle, 2 personal side islands",
+    "description": "Floating stone-brick ruins around a walled castle with a central keep.",
+    "layout": "2 spawns, castle middle, 2 personal side islands",
     "size": {
-      "x": 81,
-      "y": 44,
-      "z": 55
+      "x": 345,
+      "y": 93,
+      "z": 207
     },
     "pos1_stone": [
       0,
@@ -1462,111 +1473,111 @@
       0
     ],
     "pos2_stone": [
-      80,
-      43,
-      54
+      344,
+      92,
+      206
     ],
     "spawns": [
       [
-        12,
-        21,
-        27
+        30,
+        56,
+        101
       ],
       [
-        68,
-        21,
-        27
+        314,
+        56,
+        105
       ]
     ],
     "chests": {
       "spawn_p1": [
         [
-          10,
-          21,
-          25
+          26,
+          56,
+          97
         ],
         [
-          10,
-          21,
-          29
+          26,
+          56,
+          105
         ],
         [
-          15,
-          21,
-          27
+          35,
+          56,
+          101
         ]
       ],
       "spawn_p2": [
         [
-          65,
-          21,
-          27
+          309,
+          56,
+          105
         ],
         [
-          70,
-          21,
-          25
+          318,
+          56,
+          101
         ],
         [
-          70,
-          21,
-          29
+          318,
+          56,
+          109
         ]
       ],
       "middle": [
         [
-          35,
-          23,
-          22
+          161,
+          66,
+          92
         ],
         [
-          35,
-          23,
-          32
+          161,
+          66,
+          114
         ],
         [
-          38,
-          23,
-          26
+          166,
+          66,
+          99
         ],
         [
-          42,
-          23,
-          28
+          178,
+          66,
+          107
         ],
         [
-          45,
-          23,
-          22
+          183,
+          66,
+          92
         ],
         [
-          45,
-          23,
-          32
+          183,
+          66,
+          114
         ]
       ],
       "side_1": [
         [
-          24,
-          21,
-          13
+          94,
+          52,
+          29
         ],
         [
-          27,
-          20,
-          14
+          104,
+          51,
+          33
         ]
       ],
       "side_2": [
         [
-          53,
-          20,
-          40
+          240,
+          51,
+          173
         ],
         [
-          56,
-          21,
-          41
+          250,
+          52,
+          177
         ]
       ]
     },
@@ -1578,11 +1589,12 @@
       "side_2": 2
     },
     "total_chests": 16,
-    "blocks": 4021,
+    "blocks": 335207,
+    "lowest_island_y": 2,
     "paste_offset": [
-      -40,
+      -172,
       0,
-      -27
+      -103
     ]
   }
 ]
